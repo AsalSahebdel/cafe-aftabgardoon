@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- عنوان صفحه -->
+    <title>کافه آفتابگردون</title>
+    <!-- فایل های css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <!-- header & navbar -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <!-- دکمه منو موبایل -->
+                <button class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- لوگو -->
+                <a href="#home" class="logo">
+                    <img src="img/Logo.png" alt="لوگوی کافه آفتابگردون">
+                    <span>کافه آفتابگردون</span>
+                </a>
+                <!-- لینک منوهای دسکتاپ -->
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">خانه</a></li>
+                    <li><a href="#about">درباره ما</a></li>
+                    <li><a href="#menu">منو</a></li>
+                    <li><a href="#gallery">گالری</a></li>
+                    <li><a href="#contact">تماس با ما</a></li>
+                </ul>
+                <!-- mobile menu -->
+                <div class="mobile-menu">
+                    <!-- دکمه بستن منوی موبایل -->
+                    <button class="close-menu">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <!-- لینک های منوی موبایل -->
+                    <ul>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#about">درباره ما</a></li>
+                    <li><a href="#menu">منو</a></li>
+                    <li><a href="#gallery">گالری</a></li>
+                    <li><a href="#contact">تماس با ما</a></li> 
+                    </ul>
+                    <!-- دکمه رزرو میز در منوی موبایل -->
+                    <a href="#" class="mobile-reserve">
+                        رزرو میز
+                    </a>
+                </div>
+                <!-- لایه تار پشت منوی موبایل -->
+                <div class="overlay"></div>
+                <!-- دکمه رزرو میز در منوی دسکتاپ -->
+                <a href="#" class="reserve-btn">
+                    رزرو میز
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-subtitle">
+                به کافه آفتابگردون خوش آمدید
+            </p>
+            <h1>
+                جایی برای قهوه،
+                آرامش و لحظه های خوب
+            </h1>
+            <p class="hero-text">
+                طعم قهوه ی تازه، فضای گرم و صمیمی،
+                و لحظه هایی که دوست دارید دوباره تجربه شان کنید.
+            </p>
+            <div class="hero-buttons">
+                <a href="#menu" class="hero-btn primary-btn">
+                    مشاهده منو
+                </a>
+                <a href="#" class="hero-btn secondary-btn">
+                    رزرو میز
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="img/Hero2.png" alt="فضای کافه آفتابگردون">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="container scroll-animation">
+            <div class="about-content">
+                <div class="mobile-about-title">
+                    <h2>
+                        جایی برای آرامش و طعم های خوب
+                    </h2>
+                </div>
+                <div class="about-image">
+                    <img src="img/About2.png" alt="فضای کافه آفتابگردون">
+                </div>
+                <div class="about-text">
+                    <p class="about-subtitle">
+                        درباره ما
+                    </p>
+                    <h2>
+                        جایی برای آرامش و طعم های خوب
+                    </h2>
+                    <p>
+                        کافه آفتابگردون جایی است برای چند لحظه فاصله گرفتن از شلوغی روزمره؛ جایی که می توانید با یک
+                        فنجان قهوه تازه، یک دسر خوشمزه و فضای گرم کافه از لحظه هایتان لذت ببرید.
+                    </p>
+                    <p>
+                        ما تلاش می کنیم هر بار که به آفتابگردون سر می زنید، حس خوب و تجربه ای متفاوت داشته باشید.
+                    </p>
+                    <a href="#" class="about-btn">بیشتر بخوانید</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu section -->
+    <section class="menu" id="menu">
+        <div class="container scroll-animation">
+            <div class="menu-heading">
+                <p>منوی آفتابگردون</p>
+                <h2>طعم هایی برای هر لحظه</h2>
+            </div>
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="menu-content">
+                        <h3>
+                            <i class="fa-solid fa-bread-slice"></i>
+                            صبحانه
+                        </h3>
+                        <img src="img/Breakfast.png" alt="صبحانه های کافه آفتابگردون">
+                        <p>شروعی خوشمزه برای یک روز خوب</p>
+                        <a href="#">مشاهده منو</a>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-content">
+                        <h3>
+                            <i class="fa-solid fa-mug-hot"></i>
+                            نوشیدنی ها
+                        </h3>
+                        <img src="img/Coffee.png" alt="نوشیدنی های کافه آفتابگردون">
+                        <p>از قهوه های تازه تا نوشیدنی های خنک</p>
+                        <a href="#">مشاهده منو</a>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-content">
+                        <h3>
+                            <i class="fa-solid fa-cake-candles"></i>
+                            دسر ها
+                        </h3>
+                        <img src="img/Deserts.png" alt="دسر های کافه آفتابگردون">
+                        <p>شیرین ترین قسمت یک عصر آرام</p>
+                        <a href="#">مشاهده منو</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section -->
+    <section class="gallery" id="gallery">
+        <div class="container scroll-animation">
+            <div class="gallery-heading">
+                <p>گالری آفتابگردون</p>
+                <h2>لحظه هایی از کافه</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-slider">
+                    <div class="gallery-item">
+                        <img src="img/Gallery1.png" alt="کافه آفتابگردون">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Gallery2.png" alt="کافه آفتابگردون">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Gallery3.png" alt="کافه آفتابگردون">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Gallery4.png" alt="کافه آفتابگردون">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Gallery5.png" alt="کافه آفتابگردون">
+                    </div>
+                </div>
+                <div class="gallery-dots">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="container scroll-animation">
+            <div class="contact-heading">
+                <p>تماس با ما</p>
+                <h2>منتظر دیدار شما هستیم 🌻</h2>
+            </div>
+            <div class="contact-grid">
+                <article class="contact-card">
+                    <div class="contact-title">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>آدرس</h3>
+                    </div>
+                    <p>تهران، خیابان آفتاب، پلاک 25</p>
+                </article>
+                <article class="contact-card">
+                    <div class="contact-title">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>شماره تماس</h3>
+                    </div>
+                    <p>021-12345678</p>
+                </article>
+                <article class="contact-card">
+                    <div class="contact-title">
+                        <i class="fa-solid fa-clock"></i>
+                        <h3>ساعت کاری</h3>
+                    </div>
+                    <p>9 صبح تا 11 شب</p>
+                </article>
+                <article class="contact-card">
+                    <div class="contact-title">
+                        <i class="fa-brands fa-instagram"></i>
+                        <h3>اینستاگرام</h3>
+                    </div>
+                    <p>@aftabgardoon.cafe</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+
+            <div class="footer-content">
+                <aside class="about-footer">
+                    <img src="img/Logo.png" alt="لوگوی کافه آفتابگردون">
+                    <span>کافه آفتابگردون</span>
+                    <p>جایی برای نوشیدن یک فنجان قهوه، لذت بردن از طعم های دلنشین و ساختن لحظه هایی به یادماندنی.</p>
+                </aside>
+
+                <aside class="fast-link">
+                    <h3>دسترسی سریع</h3>
+                    <ul>
+                        <li><a href="#home">خانه</a></li>
+                        <li><a href="#about">درباره ما</a></li>
+                        <li><a href="#menu">منو</a></li>
+                        <li><a href="#gallery">گالری</a></li>
+                        <li><a href="#contact">تماس با ما</a></li>
+                    </ul>
+                </aside>
+
+                <aside class="contact-footer">
+                    <h3>ما را دنبال کنید</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                </aside>
+            </div>
+
+        </div>
+
+        <div class="copy-rit">
+            <small>© ۱۴۰۵ کافه آفتابگردون — تمامی حقوق محفوظ است.</small>
+        </div>
+    </footer>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
