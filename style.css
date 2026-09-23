@@ -923,10 +923,11 @@ footer {
 
     .contact-grid {
         display: block;
+        padding: 20px;
     }
 
     .contact-card {
-        padding: 18px;
+        padding: 10px;
         display: flex;
         justify-content: space-around;
         align-items: center;
